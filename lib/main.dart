@@ -4,6 +4,7 @@ import 'package:internship_project/Screens/infoenter.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:internship_project/Screens/registerscreen.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: InfoEnter()//LoginScreen(),
+      home: RegisterScreen(),//LoginScreen(),//InfoEnter()
 
     );
 
